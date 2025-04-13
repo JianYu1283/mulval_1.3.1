@@ -1,0 +1,19 @@
+:-['/home/ubuntu/mulval_1.3.1/lib/libmulval'].
+:-['/home/ubuntu/mulval_1.3.1/src/analyzer/translate'].
+:-['/home/ubuntu/mulval_1.3.1/src/analyzer/attack_trace'].
+:-['/home/ubuntu/mulval_1.3.1/src/analyzer/auxiliary'].
+
+:-dynamic meta/1.
+
+:-load_dyn('running_rules.P').
+
+:-load_dyn('3host/input.P').
+
+:-assert(traceMode(completeTrace2)).
+
+:-load_dyn('/home/ubuntu/mulval_1.3.1/src/analyzer/advances_notrim.P').
+
+:-assert(cvss(_, none)).
+
+:-mulval_run.
+

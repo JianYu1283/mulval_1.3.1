@@ -1,0 +1,49 @@
+[xsb_configuration loaded]
+[sysinitrc loaded]
+[xsbbrat loaded]
+
+XSB Version 3.8.0 (Three-Buck Chuck) of October 28, 2017
+[x86_64-unknown-linux-gnu 64 bits; mode: optimal; engine: slg-wam; scheduling: local]
+[Build date: 2025-03-10]
+
+| ?- [Compiling ./results]
+[results compiled, cpu time used: 0.0140 seconds]
+[results loaded]
+
+yes
+| ?- [libmulval loaded]
+
+yes
+| ?- [nessus_translator loaded]
+
+yes
+| ?- 
+yes
+| ?- 
+A = _h174
+B = _h192
+C = _h210
+L = [vulProperty(CVE-2017-0267,remoteExploit,privEscalation),vulProperty(CVE-2017-0268,remoteExploit,privEscalation),vulProperty(CVE-2017-0270,remoteExploit,privEscalation),vulProperty(CVE-2017-0271,remoteExploit,privEscalation),vulProperty(CVE-2017-0272,remoteExploit,privEscalation),vulProperty(CVE-2017-0272,remoteExploit,privEscalation),vulProperty(CVE-2017-0274,remoteExploit,privEscalation),vulProperty(CVE-2017-0275,remoteExploit,privEscalation),vulProperty(CVE-2017-0276,remoteExploit,privEscalation),vulProperty(CVE-2017-0277,remoteExploit,privEscalation),vulProperty(CVE-2017-0277,remoteExploit,privEscalation),vulProperty(CVE-2017-0278,remoteExploit,privEscalation),vulProperty(CVE-2017-0278,remoteExploit,privEscalation),vulProperty(CVE-2017-0279,remoteExploit,privEscalation),vulProperty(CVE-2017-0279,remoteExploit,privEscalation),vulProperty(CVE-2017-0143,remoteExploit,privEscalation),vulProperty(CVE-2017-0143,remoteExploit,privEscalation),vulProperty(CVE-2017-0144,remoteExploit,privEscalation),vulProperty(CVE-2017-0144,remoteExploit,privEscalation),vulProperty(CVE-2017-0145,remoteExploit,privEscalation),vulProperty(CVE-2017-0145,remoteExploit,privEscalation),vulProperty(CVE-2017-0146,remoteExploit,privEscalation),vulProperty(CVE-2017-0146,remoteExploit,privEscalation),vulProperty(CVE-2017-0147,remoteExploit,privEscalation),vulProperty(CVE-2017-0148,remoteExploit,privEscalation),vulProperty(CVE-2017-0148,remoteExploit,privEscalation)]
+yes
+| ?- 
+A = _h174
+B = _h192
+C = _h210
+L = [vulExists(192.168.116.154,CVE-1999-0524,windows_-),vulExists(192.168.116.145,CVE-1999-0511,windows_nt_*),vulExists(192.168.116.145,CVE-1999-0524,windows_-),vulExists(192.168.116.145,CVE-1999-0548,undefined),vulExists(192.168.116.145,CVE-1999-0632,undefined),vulExists(192.168.116.148,CVE-2017-0267,windows_server_2012_r2),vulExists(192.168.116.148,CVE-2017-0268,windows_server_2012_r2),vulExists(192.168.116.148,CVE-2017-0269,windows_server_2012_r2),vulExists(192.168.116.148,CVE-2017-0270,windows_server_2012_r2),vulExists(192.168.116.148,CVE-2017-0271,windows_server_2012_r2),vulExists(192.168.116.148,CVE-2017-0272,windows_rt_8.1_*),vulExists(192.168.116.148,CVE-2017-0273,windows_server_2012_r2),vulExists(192.168.116.148,CVE-2017-0274,windows_server_2012_r2),vulExists(192.168.116.148,CVE-2017-0275,windows_rt_8.1_*),vulExists(192.168.116.148,CVE-2017-0276,windows_rt_8.1_*),vulExists(192.168.116.148,CVE-2017-0277,windows_rt_8.1_*),vulExists(192.168.116.148,CVE-2017-0278,windows_rt_8.1_*),vulExists(192.168.116.148,CVE-2017-0279,windows_rt_8.1_*),vulExists(192.168.116.148,CVE-2017-0280,windows_rt_8.1_*),vulExists(192.168.116.148,CVE-2017-0143,undefined),vulExists(192.168.116.148,CVE-2017-0144,undefined),vulExists(192.168.116.148,CVE-2017-0145,undefined),vulExists(192.168.116.148,CVE-2017-0146,undefined),vulExists(192.168.116.148,CVE-2017-0147,windows_server_2012_r2),vulExists(192.168.116.148,CVE-2017-0148,undefined)]
+yes
+| ?- 
+CVE = _h174
+AC = _h192
+L = [cvss(CVE-1999-0524,undefined),cvss(CVE-1999-0511,undefined),cvss(CVE-1999-0524,undefined),cvss(CVE-1999-0548,undefined),cvss(CVE-1999-0632,undefined),cvss(CVE-2017-0267,h),cvss(CVE-2017-0268,h),cvss(CVE-2017-0269,h),cvss(CVE-2017-0270,h),cvss(CVE-2017-0271,h),cvss(CVE-2017-0272,h),cvss(CVE-2017-0273,h),cvss(CVE-2017-0274,h),cvss(CVE-2017-0275,h),cvss(CVE-2017-0276,h),cvss(CVE-2017-0277,h),cvss(CVE-2017-0278,h),cvss(CVE-2017-0279,h),cvss(CVE-2017-0280,h),cvss(CVE-2017-0143,l),cvss(CVE-2017-0144,l),cvss(CVE-2017-0145,l),cvss(CVE-2017-0146,l),cvss(CVE-2017-0147,l),cvss(CVE-2017-0148,h)]
+yes
+| ?- 
+Host = _h174
+Program = _h192
+Protocol = _h210
+Port = _h228
+L = [networkServiceInfo(192.168.116.148,windows_server_2012_r2,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_server_2012_r2,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_server_2012_r2,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_server_2012_r2,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_server_2012_r2,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined,tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined,tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined,tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined,tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined,tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined,tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined,tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_server_2012_r2,tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined,tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined,tcp,445,someUser)]
+yes
+| ?- 
+yes
+| ?- 
+End XSB (cputime 0.02 secs, elapsetime 0.04 secs)

@@ -1,0 +1,60 @@
+[xsb_configuration loaded]
+[sysinitrc loaded]
+[xsbbrat loaded]
+
+XSB Version 3.8.0 (Three-Buck Chuck) of October 28, 2017
+[x86_64-unknown-linux-gnu 64 bits; mode: optimal; engine: slg-wam; scheduling: local]
+[Build date: 2025-03-10]
+
+| ?- [libmulval loaded]
+
+yes
+| ?- [auxiliary loaded]
+
+yes
+| ?- [vul_summary loaded]
+
+yes
+| ?- [/home/ubuntu/mulval_1.3.1/bin/adapter/nessus.P dynamically loaded, cpu time used: 0.0090 seconds]
+
+yes
+| ?- 
+yes
+| ?- 
+yes
+| ?- 
+Host = _h174
+Program = _h192
+Protocol = _h210
+Port = _h228
+L = [networkServiceInfo(192.168.116.148,windows_server_2012_r2,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_server_2012_r2,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_server_2012_r2,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_server_2012_r2,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_server_2012_r2,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_rt_8.1_*,tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined(),tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined(),tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined(),tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined(),tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined(),tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined(),tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined(),tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined(),tcp,445,someUser),networkServiceInfo(192.168.116.148,windows_server_2012_r2,tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined(),tcp,445,someUser),networkServiceInfo(192.168.116.148,undefined(),tcp,445,someUser)]
+yes
+| ?- 
+Host = _h174
+Host1 = _h192
+Protocol = _h210
+Port = _h228
+L = [hacl(_h513,_h514,_h515,_h516)]
+yes
+| ?- 
+A = _h174
+B = _h192
+C = _h210
+L = [hasAccount(192.168.116.154_victim,192.168.116.154,user),hasAccount(192.168.116.148_victim,192.168.116.148,user),hasAccount(192.168.116.145_victim,192.168.116.145,user)]
+yes
+| ?- 
+A = _h174
+L = [inCompetent(192.168.116.154_victim),inCompetent(192.168.116.148_victim),inCompetent(192.168.116.145_victim)]
+yes
+| ?- 
+A = _h174
+L = [attackGoal(execCode(192.168.116.154,_h344)),attackGoal(execCode(192.168.116.148,_h351)),attackGoal(execCode(192.168.116.145,_h358))]
+yes
+| ?- 
+A = _h174
+L = [attackerLocated(internet),attackerLocated(internet),attackerLocated(internet)]
+yes
+| ?- 
+yes
+| ?- 
+End XSB (cputime 0.02 secs, elapsetime 0.03 secs)

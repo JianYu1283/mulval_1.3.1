@@ -1,0 +1,38 @@
+[xsb_configuration loaded]
+[sysinitrc loaded]
+[xsbbrat loaded]
+
+XSB Version 3.8.0 (Three-Buck Chuck) of October 28, 2017
+[x86_64-unknown-linux-gnu 64 bits; mode: optimal; engine: slg-wam; scheduling: local]
+[Build date: 2025-03-10]
+
+| ?- [Compiling ./run]
+[run compiled, cpu time used: 0.0080 seconds]
+[run loaded]
+[libmulval loaded]
+[translate loaded]
+[attack_trace loaded]
+[auxiliary loaded]
+[/home/ubuntu/mulval_1.3.1/bin/adapter/running_rules.P dynamically loaded, cpu time used: 0.0060 seconds]
+[/home/ubuntu/mulval_1.3.1/bin/adapter/nessus.P dynamically loaded, cpu time used: 0.0030 seconds]
+[/home/ubuntu/mulval_1.3.1/src/analyzer/advances_notrim.P dynamically loaded, cpu time used: 0.0000 seconds]
+@@@@@@@@@@@@@@Done transforming in mode dynamic_decl
+
+[/home/ubuntu/mulval_1.3.1/bin/adapter/dynamic_decl.gen dynamically loaded, cpu time used: 0.0000 seconds]
+@@@@@@@@@@@@@@Done transforming in mode completeTrace2
+
+@@@@@@@@@@@@@@Done transforming in mode completeTrace2
+
+@@@@@@@@@@@@@@Done transforming in mode stripExplanation
+
+Running attack simulation...
+Partial Forward Continuation...
+... call_c/1  From /home/ubuntu/XSB/syslib/standard.xwam
+
+++Error[XSB]: [Runtime/C] 
+++Memory violation occurred during evaluation.
+++Please report this problem using the XSB bug tracking system accessible from
+++	 http://sourceforge.net/projects/xsb
+++Please supply the steps necessary to reproduce the bug.
+
+++Error[XSB]: [Runtime/C] Exiting XSB abnormally...

@@ -1,0 +1,149 @@
+[xsb_configuration loaded]
+[sysinitrc loaded]
+[xsbbrat loaded]
+
+XSB Version 3.8.0 (Three-Buck Chuck) of October 28, 2017
+[x86_64-unknown-linux-gnu 64 bits; mode: optimal; engine: slg-wam; scheduling: local]
+[Build date: 2025-03-10]
+
+| ?- [libmulval loaded]
+
+yes
+| ?- [auxiliary loaded]
+
+yes
+| ?- [Compiling /home/ubuntu/mulval_1.2.1/src/adapter/vul_summary]
+[vul_summary compiled, cpu time used: 0.0000 seconds]
+[vul_summary loaded]
+
+yes
+| ?- ++Error[XSB/Runtime/P]: [Permission (Operation) open on file: /home/ubuntu/test.nessus]  in open/3
+Forward Continuation...
+... machine:xsb_backtrace/1  From /home/ubuntu/XSB/syslib/machine.xwam
+... standard:open/3  From /home/ubuntu/XSB/syslib/standard.xwam
+... parse:open_or_xpp_file/2  From /home/ubuntu/XSB/cmplib/parse.xwam
+... consult:load_dyn1/5  From /home/ubuntu/XSB/syslib/consult.xwam
+... x_interp:_$call/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... x_interp:call_query/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:interpreter/0  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... loader:ll_code_call/3  From /home/ubuntu/XSB/syslib/loader.xwam
+... loader:load_object_file/2  From /home/ubuntu/XSB/syslib/loader.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+| ?- ++Error[XSB/Runtime/P]: [Permission (Operation) open on file: summ_/home/ubuntu/test.nessus]  in open/3
+Forward Continuation...
+... machine:xsb_backtrace/1  From /home/ubuntu/XSB/syslib/machine.xwam
+... standard:open/3  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:_$call/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... x_interp:call_query/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:interpreter/0  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... loader:ll_code_call/3  From /home/ubuntu/XSB/syslib/loader.xwam
+... loader:load_object_file/2  From /home/ubuntu/XSB/syslib/loader.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+| ?- ++Error[XSB/Runtime/P]: [Permission (Operation) open on file: grps_/home/ubuntu/test.nessus]  in open/3
+Forward Continuation...
+... machine:xsb_backtrace/1  From /home/ubuntu/XSB/syslib/machine.xwam
+... standard:open/3  From /home/ubuntu/XSB/syslib/standard.xwam
+... file_truncate/1  From /home/ubuntu/mulval_1.2.1/lib/libmulval.xwam
+... x_interp:_$call/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... x_interp:call_query/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:interpreter/0  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... loader:ll_code_call/3  From /home/ubuntu/XSB/syslib/loader.xwam
+... loader:load_object_file/2  From /home/ubuntu/XSB/syslib/loader.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+| ?- ++Error[XSB/Runtime/P]: [Existence (No procedure usermod : networkServiceInfo / 5 exists)] []
+Forward Continuation...
+... machine:xsb_backtrace/1  From /home/ubuntu/XSB/syslib/machine.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:call_c/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:_$call/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... x_interp:call_query/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:interpreter/0  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... loader:ll_code_call/3  From /home/ubuntu/XSB/syslib/loader.xwam
+... loader:load_object_file/2  From /home/ubuntu/XSB/syslib/loader.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+| ?- ++Error[XSB/Runtime/P]: [Existence (No procedure usermod : hacl / 4 exists)] []
+Forward Continuation...
+... machine:xsb_backtrace/1  From /home/ubuntu/XSB/syslib/machine.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:call_c/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:_$call/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... x_interp:call_query/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:interpreter/0  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... loader:ll_code_call/3  From /home/ubuntu/XSB/syslib/loader.xwam
+... loader:load_object_file/2  From /home/ubuntu/XSB/syslib/loader.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+| ?- ++Error[XSB/Runtime/P]: [Existence (No procedure usermod : hasAccount / 3 exists)] []
+Forward Continuation...
+... machine:xsb_backtrace/1  From /home/ubuntu/XSB/syslib/machine.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:call_c/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:_$call/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... x_interp:call_query/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:interpreter/0  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... loader:ll_code_call/3  From /home/ubuntu/XSB/syslib/loader.xwam
+... loader:load_object_file/2  From /home/ubuntu/XSB/syslib/loader.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+| ?- ++Error[XSB/Runtime/P]: [Existence (No procedure usermod : inCompetent / 1 exists)] []
+Forward Continuation...
+... machine:xsb_backtrace/1  From /home/ubuntu/XSB/syslib/machine.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:call_c/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:_$call/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... x_interp:call_query/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:interpreter/0  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... loader:ll_code_call/3  From /home/ubuntu/XSB/syslib/loader.xwam
+... loader:load_object_file/2  From /home/ubuntu/XSB/syslib/loader.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+| ?- ++Error[XSB/Runtime/P]: [Existence (No procedure usermod : attackGoal / 1 exists)] []
+Forward Continuation...
+... machine:xsb_backtrace/1  From /home/ubuntu/XSB/syslib/machine.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:call_c/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:_$call/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... x_interp:call_query/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:interpreter/0  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... loader:ll_code_call/3  From /home/ubuntu/XSB/syslib/loader.xwam
+... loader:load_object_file/2  From /home/ubuntu/XSB/syslib/loader.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+| ?- ++Error[XSB/Runtime/P]: [Existence (No procedure usermod : attackerLocated / 1 exists)] []
+Forward Continuation...
+... machine:xsb_backtrace/1  From /home/ubuntu/XSB/syslib/machine.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:call_c/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:_$call/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... x_interp:call_query/1  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+... x_interp:interpreter/0  From /home/ubuntu/XSB/syslib/x_interp.xwam
+... loader:ll_code_call/3  From /home/ubuntu/XSB/syslib/loader.xwam
+... loader:load_object_file/2  From /home/ubuntu/XSB/syslib/loader.xwam
+... standard:call/1  From /home/ubuntu/XSB/syslib/standard.xwam
+... standard:catch/3  From /home/ubuntu/XSB/syslib/standard.xwam
+| ?- 
+yes
+| ?- 
+End XSB (cputime 0.00 secs, elapsetime 0.04 secs)
